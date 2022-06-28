@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="z.css">
+    <script src="z.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+    <video id="video">
+        <source src='video-with-subtitles.mp4'>
+    </video>
+
+    <div class="controls">
+        <button class="controls__play-pause" id="playPause" data-video-state="Pause">Play/Pause</button>
+        <button class="controls__stop" id="Stop">Stop</button>
+
+
+        <div class="controls__progress">
+            <progress id="progress" value="40" min='0'>
+                <span id="progress-bar"></span>
+            </progress>
+        </div>
+        <button class="controls__mute" id="muteBtn">Mute</button>
+        <button class="controls__minus" id="minusBtn">Minus</button>
+        <button class="controls__plus" id="plusBtn">Plus</button>
+    </div>
+</div>
+</body>
+</html>

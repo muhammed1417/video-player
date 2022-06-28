@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper video{
+    height: 80vh;
+    width: 100%;
+    margin: 30px;
+}
+
+.controls{
+    display: flex;
+    column-gap: 20px;
+}
+button{
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    transition: 0.2s;
+}
+
+button:active{
+    transform: scale(0.95);
+}
+.controls__play-pause{
+background-color: azure;
+}
+
+.controls__stop{
+    background-color: darkcyan;
+}
+
+.controls__mute{
+    background-color: deeppink;
+}
+
+.controls__minus {
+    background-color: indigo;
+}
+
+.controls__plus{
+    background-color: navajowhite;
+}
+progress{
+    height: 50px;
+}
